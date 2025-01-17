@@ -1,6 +1,6 @@
 import React from 'react';
 
-function AboutMe() {
+const AboutMe = () => {
   return (
     <section>
       <h2>About Me</h2>
