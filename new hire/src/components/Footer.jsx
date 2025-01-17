@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Footer() {
+const Footer = () => {
   return (
     <footer>
       <p>© 2023 My Portfolio</p>
