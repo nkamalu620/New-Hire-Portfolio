@@ -1,6 +1,32 @@
 import React from 'react';
 
-function Contact() {
+const Contact = () => {
+
+  const [formData, setFormData] = useState({
+    name: '',
+    email: '',
+    message: '',
+  });
+
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData({
+      ...formData,
+      [name]: value,
+    });
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    // Handle form submission logic here (e.g., send data to an API)
+    console.log('Form submitted:', formData);
+    // Reset form after submission
+    setFormData({
+      name: '',
+      email: '',
+      message: '',
+    });
+  };
   return (
     <section>
       <h2>Contact Me</h2>
