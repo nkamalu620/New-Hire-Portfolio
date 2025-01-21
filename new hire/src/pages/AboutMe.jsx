@@ -4,7 +4,7 @@ const AboutMe = () => {
   return (
     <section style={aboutMeStyle}>
       <h2>About Me</h2>
-      <img src="/" alt="/" style ={imageStlye}/>
+      <img src="/" alt="/" style ={imageStyle}/>
       <p>Hi, my name is Nkechi. I am an asipring web developer who likes to be challenged on new things!</p>
     </section>
   );
