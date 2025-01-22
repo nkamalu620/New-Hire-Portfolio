@@ -3,6 +3,7 @@ import Portfolio from './pages/Portfolio';
 import Contact from './pages/Contact';
 import Resume from './pages/Resume';
 import Navigation from './components/Navigation';
+
 function App() {
   return (
     <div>
@@ -30,3 +31,5 @@ function App() {
     </div>
   );
 }
+
+export default App;
